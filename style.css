@@ -161,26 +161,64 @@ body {
 }
 
 a,
+h2,
 h3,
 h4,
 h6 {
   font-family: "Belleza", sans-serif !important;
 }
 
-.hero-img{
+.hero-img {
   width: 100%;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
+.para {
+  color: #fff;
+  font-size: 17px;
+  line-height: 33px;
+  text-align: center;
+  width: 800px;
+}
+.ttl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0371c5;
+  margin-bottom: 40px;
+  font-size: 55px;
+}
+.ft_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 @media screen and (max-width: 768px) {
   .box_card {
     height: 100%;
   }
+  .ttl {
+    padding-top: 90px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+  }
+  .para {
+    color: #fff;
+    font-size: 17px;
+    line-height: 33px;
+    text-align: center;
+    width: 98%;
+    padding: 0 10px;
+  }
 
-  .hero-img{
+  .ban_ht {
+    height: 700px;
+  }
+
+  .hero-img {
     margin-top: 92px;
     max-width: 100%;
-    transform: scale(2.5)
+    transform: scale(2.5);
   }
 }
