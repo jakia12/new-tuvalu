@@ -186,9 +186,15 @@ h6 {
   justify-content: center;
   align-items: center;
   color: #0371c5;
-  margin-bottom: 30%;
+  /* margin-bottom: 30%; */
+  margin-top: 30%;
   font-size: 55px;
 }
+
+.hero-para{
+  margin-top: 30%;
+}
+
 .ft_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -224,6 +230,12 @@ h6 {
     font-size: 50px;
     text-align: center;
   }
+
+  .hero-para{
+    margin-top: -30%;
+  }
+  
+
   .txt_center {
     text-align: center;
   }
