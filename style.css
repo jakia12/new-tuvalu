@@ -203,6 +203,15 @@ h6 {
     font-size: 50px;
     text-align: center;
   }
+  .txt_center {
+    text-align: center;
+  }
+  .ft_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
   .para {
     color: #fff;
     font-size: 17px;
