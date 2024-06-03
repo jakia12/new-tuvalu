@@ -1,6 +1,13 @@
 /* font link */
 @import url("https://fonts.googleapis.com/css2?family=Belleza&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+.goblin{
+  font-family: "Goblin One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .bella {
   font-family: "Belleza", sans-serif;
   font-weight: 400;
@@ -186,9 +193,15 @@ h6 {
   justify-content: center;
   align-items: center;
   color: #0371c5;
-  margin-bottom: 30%;
+  /* margin-bottom: 30%; */
+  /* margin-bottom: 5%; */
   font-size: 55px;
 }
+
+.hero-para{
+  margin-top: 45%;
+}
+
 .ft_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -224,6 +237,12 @@ h6 {
     font-size: 50px;
     text-align: center;
   }
+
+  .hero-para{
+    margin-top: -30%;
+  }
+  
+
   .txt_center {
     text-align: center;
   }
