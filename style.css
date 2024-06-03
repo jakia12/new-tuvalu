@@ -263,7 +263,7 @@ h6 {
       margin-top: -30%;
     }
 
-    .collection-item-3 {
+    .col_h {
       background-image: linear-gradient(
         rgba(0, 0, 0, 0.35) 53%,
         rgba(0, 0, 0, 0) 77%,
@@ -273,12 +273,12 @@ h6 {
       height: 120vh;
       padding-bottom: 30px;
     }
-    .home-banner-section {
-      height: 134vh;
+    .ban_ht {
+      height: 129vh;
       overflow: hidden;
     }
     .col_img {
-      height: 134vh;
+      height: 129vh;
     }
     .txt_center {
       text-align: center;
